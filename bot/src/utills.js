@@ -2,7 +2,6 @@ const moment = require("moment");
 const {User, TrackedGood, Good} = require("../db/models");
 const {getJsDomByUrl, parseGood, commitPriceChange} = require("./checker");
 
-
 const CommandName = {
     START: '/start',
     SCAN_BY_CATEGORY: '/scan_by_category',
@@ -46,62 +45,10 @@ const BotCommand = [
         default_answer: `Добро пожаловать. ${StatusMessages.INFO_TIP}`,
 
     },
-    {
-        name: CommandName.SCAN_BY_CATEGORY,
-        description: 'Scan all goods by category',
-        default_answer: 'Выберите категорию',
-
-    },
-    {
-        name: CommandName.TRACK,
-        description: 'Add good to your personal track list',
-        default_answer: 'Скинь мне ссылку на товар магазина Ябко',
-    },
-    {
-        name: CommandName.TRACK_LIST,
-        description: 'Show your track list',
-        default_answer: CommandName.TRACK_LIST,
-
-    },
-    {
-        name: CommandName.CATEGORY_LIST,
-        description: 'Show category list',
-        default_answer: 'Вот список категорий в магазине Ябко.\n' +
-        'Вы можете нажать на соответствующию категорию и узнать от последних изменениях цен в ней (если они есть)'
-    },
-    {
-        name: CommandName.DELETE_TRACK_ITEM,
-        description: 'Delete track entry from tack list',
-        default_answer: 'Введите id товара для удаления',
-
-    },
-    {
-        name: CommandName.INFO,
-        description: 'Show your bot capability',
-        default_answer: ''
-    },
-    {
-        name: CommandName.STATISTIC,
-        description: 'Send statistic image of price changes for specify good',
-        default_answer: 'Give me a good id'
-    },
 ];
 
 const getDefAnswer = (text) => BotCommand.find(bc => bc.name === text).default_answer;
 
-const GoodsPageType = {
-    LIST: {
-        NameSelector: '.slide-title > span',
-        UrlSelector: '.product_link',
-        PriceUah: '.price-cur > .uah > span',
-    },
-    SHOW: {
-        NameSelector: '.product-info__title',
-        UrlSelector: '.container-crumbs > ul > li:nth-last-child(1) > a',
-        PriceUah: '.price-new__uah',
-        PriceUsd: '.price-new__usd'
-    }
-}
 
 const stickerList = [
     {
@@ -111,26 +58,7 @@ const stickerList = [
 ]
 
 const max_msg_c_at_time = 24;
-const getColoredSpan = (color, val, char = null, type = 'abs') => {
-    if(type == 'abs')
-        return `<b style=\"color: ${color}\">${char == '+' ? '+' : ''}${val} грн</b>`;
-    if(type == 'percent')
-        return `<b style=\"color: ${color}\">${char}${val}%</b>`;
-}
 
-const goodChangesMsgFormat = (changedGoods) => {
-    const res = changedGoods.length > max_msg_c_at_time
-        ? changedGoods.slice(0, max_msg_c_at_time) : changedGoods;
-
-    return res.map(changedGood => {
-        const {percentDiff: valPercent, absoluteDiff: valAbs, char } = changedGood.diff;
-        const diffColor = changedGood.diff.percentDiff > 0 ? 'green' : 'red';
-
-        return `<a href="${changedGood.good.url}">${changedGood.good.name}</a>
-Before <s>${changedGood.oldPriceUah}</s> - 
-After <b>${changedGood.newPriceUah} (${getColoredSpan(diffColor,valPercent,char,'percent')} / ${getColoredSpan(diffColor, valAbs, char, 'abs')}).</b>`
-    })
-}
 
 const fromTextToMoney = (text) => {
     return parseFloat(text
@@ -140,15 +68,7 @@ const fromTextToMoney = (text) => {
         .toFixed(2);
 }
 
-const getOptionsFromCategories = (categories) => {
-    return {
-        reply_markup: JSON.stringify({
-            inline_keyboard: categories.map(category => (
-                [{ text: category.name, callback_data: `${CommandName.SCAN_BY_CATEGORY}${CallbackPayloadSeparator}${category.id}`}]
-            ))
-        })
-    }
-}
+
 
 const getExtraQuestion = (commandName, step = 0) => {
     return ExtraQuestions.find(eq => eq.command == commandName).questions[step];
@@ -174,11 +94,11 @@ module.exports = {
     CommandName,
     BotCommand,
     currenDateTimeStamp,
-    GoodsPageType,
-    goodChangesMsgFormat,
+    // GoodsPageType,
+    // goodChangesMsgFormat,
     fromTextToMoney,
     CallbackPayloadSeparator,
-    getOptionsFromCategories,
+    // getOptionsFromCategories,
     stickerList,
     getDefAnswer,
     getExtraQuestion,
