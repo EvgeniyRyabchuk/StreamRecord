@@ -9,6 +9,10 @@ const path = require('path');
 const fs = require("fs");
 const { JSDOM } = jsdom;
 
+// const checkIfLive = async (url) => {
+//     let dom = await getJsDomByUrl(url);
+//     dom.window.document.querySelectorAll(".second-nav > .item");
+// }
 
 const getAllCategories = async () => {
     // const limit2 = 3;

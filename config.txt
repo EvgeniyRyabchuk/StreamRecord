@@ -1,7 +1,4 @@
-
 -o ../Records/%(title)s%(upload_date)s.%(ext)s
-
-
 
 --merge-output-format mp4
 

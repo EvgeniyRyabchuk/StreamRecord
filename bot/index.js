@@ -25,6 +25,7 @@ require('dotenv').config();
 const TelegramApi = require('node-telegram-bot-api');
 const token = process.env.CHAT_BOT_TOKEN;
 const baseTargetUrl = process.env.BASE_TARGET_URL;
+const yt_dlp_env_include = process.env.YT_DLP_ENV_INCLUDE;
 
 const mode = process.env.MODE ?? 'development';
 const bot = new TelegramApi(token, {
@@ -43,11 +44,50 @@ const axios = require("axios");
 const { spawn, spawnSync, execSync, exec } = require('child_process');
 const {Logger} = require("sequelize/lib/utils/logger");
 const path  = require('path');
-
+const downloadProcessList = [];
+var kill  = require('tree-kill');
 
 bot.setMyCommands([...BotCommand.map(c => ({ command: c.name, description: c.description }))]);
 
 const admin_user_id = 473591842;
+let admin_chat_id = null;
+
+const downloadStream = (following) => {
+    const pathToRoot =  path.resolve(__dirname, '..');
+    const pathToExec = yt_dlp_env_include == 'false' ?
+        path.resolve(__dirname, '..', 'yt-dlp_win', 'yt-dlp.exe') : "yt-dpl";
+
+    const url = following.url;
+    const options = [
+        `--config-location ${path.resolve(pathToRoot, 'config.txt')}`
+    ];
+
+    const interceptOutput = {stdio: ['ignore', process.stdout, 'ignore']}
+    console.log(pathToExec);
+
+    const downloadProcess = spawn(`${pathToExec} ${options.join(' ')} ${url}`, [''], {shell: true});
+
+    downloadProcessList.push(downloadProcess);
+    const index = downloadProcessList.indexOf(downloadProcess);
+    following.recording = true;
+
+    downloadProcess.stderr.on('data', (data) => {
+        console.log(`ERROR: \n${data}`);
+    });
+    downloadProcess.stdout.on('data', (data) => {
+        console.log(`child stdout: \n${data}`);
+        writeLog(`${data}`);
+    });
+    downloadProcess.on('close', function (code) {
+        console.log("finish");
+
+        following.recording = false;
+        downloadProcessList.splice(index, 1);
+
+        if(admin_chat_id !== null)
+            bot.sendMessage(admin_chat_id, "Стрим скачен");
+    });
+}
 
 const start = async () =>
 {
@@ -63,10 +103,16 @@ const start = async () =>
     //     await sequelize.sync();
     // }
 
-    // every day scan
-    const priceCheckerTask = cron.schedule('0 * * * *', async () => {
+    const subscriptions = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'links_list.json'), 'utf8'));
+
+    // every minute scan
+    const priceCheckerTask = cron.schedule('* * * * *', async () => {
         console.log('\n ============= cron job is begin ============= \n');
-        // await checkTrackedGoodPrice(bot);
+        for (let following of subscriptions) {
+            if(following.recording == false)
+                downloadStream(following);
+        }
+
         console.log('\n ============= cron job end ============= \n');
     });
 
@@ -76,11 +122,9 @@ const start = async () =>
         const text = msg.text;
         const chatId = msg.chat.id;
         const user = msg.from;
-        const pathToRoot =  path.resolve(__dirname, '..');
-        const pathToExec = path.resolve(__dirname, '..', 'yt-dlp_win', 'yt-dlp.exe');
+        admin_chat_id = chatId;
 
 
-        const links = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'links_list.json'), 'utf8'));
         // const member = await bot.getChatMember(chatId, user.id);
         // const dbUser = await User.findOne({ where: { id: user.id}});
 
@@ -98,25 +142,6 @@ const start = async () =>
                     //TODO: encoding error
                     // console.log(downloadProcess.stdout);
 
-                    const url = 'https://www.twitch.tv/videos/1948368665';
-                    const options = [
-                        `--config-location ${path.resolve(pathToRoot, 'config.txt')}`
-                    ]
-                    const interceptOutput = {stdio: ['ignore', process.stdout, 'ignore']}
-                    console.log(pathToExec);
-
-                    const downloadProcess = spawn(`${pathToExec} ${options.join(' ')} ${url}`, [''], {shell: true});
-
-                    downloadProcess.stderr.on('data', (data) => {
-                        console.log(`ERROR: \n${data}`);
-                    });
-                    downloadProcess.stdout.on('data', (data) => {
-                        console.log(`child stdout: \n${data}`);
-                        writeLog(`${data}`);
-                    });
-                    downloadProcess.on('close', function (code) {
-                        console.log("finish");
-                    });
 
                     await bot.sendSticker(chatId, stickerList.find(s => s.name == 'Hello').url);
                 }
@@ -135,6 +160,16 @@ const start = async () =>
                     if (user.id !== admin_user_id)
                         return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
                     jobs.forEach(job => job.stop());
+
+                    console.log(`================= ${downloadProcessList.length} ================= `);
+
+                    for (let dProcess of downloadProcessList) {
+                        console.log(dProcess.kill());
+                        console.log(dProcess.exitCode);
+                    }
+
+                    console.log(`================= ${downloadProcessList.length} ================= `);
+
                     return bot.sendMessage(chatId, 'corn jobs stopped successfully');
                 }
                 case AdminCommandName.START_ALL_CORN_JOBS: {

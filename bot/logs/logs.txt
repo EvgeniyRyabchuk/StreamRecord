@@ -1940,3 +1940,422 @@ Service was started1 [15:0:44]
 1 [15:0:52]
 [FixupM3u8] Fixing MPEG-TS in MP4 container of "..\Records\��� ��Ѩ� � CS 2 (�� ���� ������)20231011.mp4"
 1 [15:0:53]
+Service was started1 [16:5:52]
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/1948368665
+1 [16:5:56]
+[twitch:vod] 1948368665: Downloading stream metadata GraphQL
+1 [16:5:56]
+[twitch:vod] 1948368665: Downloading video access token GraphQL
+1 [16:5:56]
+[twitch:vod] 1948368665: Downloading m3u8 information
+1 [16:5:57]
+[twitch:vod] 1948368665: Downloading storyboard metadata JSON
+1 [16:5:57]
+[info] v1948368665: Downloading 1 format(s): 1080p
+1 [16:5:57]
+[download] ..\Records\��� ��Ѩ� � CS 2 (�� ���� ������)20231011.mp4 has already been downloaded
+1 [16:5:57]
+[download] 100% of   53.77MiB
+1 [16:5:57]
+Service was started1 [16:25:44]
+Service was started1 [16:28:25]
+Service was started1 [16:29:59]
+Service was started1 [16:30:30]
+Service was started1 [16:31:6]
+[generic] Extracting URL: undefined
+1 [16:32:1]
+[generic] Extracting URL: undefined
+1 [16:32:1]
+Service was started1 [16:32:55]
+Service was started1 [16:32:59]
+Service was started1 [16:33:34]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:34:42]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:34:58]
+Service was started1 [16:36:26]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:37:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:37:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:37:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:37:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [16:37:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [16:37:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [16:37:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [16:37:2]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [16:37:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 16_3720231013.mp4
+1 [16:37:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:38:0]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:38:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:38:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:38:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:39:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:39:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:39:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:39:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:40:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:40:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:40:0]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:40:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:41:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:41:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:41:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:41:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:42:2]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:42:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:42:2]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:42:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:43:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:43:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:43:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:43:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:44:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:44:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:44:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:44:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:45:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:45:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:45:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:45:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:46:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:46:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:46:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:46:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:47:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:47:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:47:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:47:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:48:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:48:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:48:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:48:1]
+Service was started1 [16:50:44]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:51:29]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:51:29]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+[twitch:stream] stintik: Downloading stream GraphQL
+[twitch:stream] stintik: Downloading stream access token GraphQL
+[twitch:stream] 41234596616: Downloading m3u8 information
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 16_5120231013.mp4
+1 [16:51:30]
+Service was started1 [16:52:45]
+Service was started1 [16:52:55]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:53:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:53:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:53:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:53:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [16:53:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [16:53:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [16:53:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [16:53:1]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [16:53:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 16_5320231013.mp4
+1 [16:53:2]
+Service was started1 [16:53:13]
+Service was started1 [16:53:20]
+Service was started1 [16:54:27]
+Service was started1 [16:55:56]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:56:13]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:56:14]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:56:14]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [16:56:14]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [16:56:14]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [16:56:14]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [16:56:15]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [16:56:15]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 16_5620231013.mp4
+1 [16:56:15]
+Service was started1 [16:57:14]
+Service was started1 [16:57:40]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [16:58:2]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [16:58:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [16:58:2]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [16:58:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [16:58:2]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [16:58:2]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [16:58:3]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [16:58:3]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [16:58:4]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 16_5820231013.mp4
+1 [16:58:4]
+Service was started1 [16:59:44]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:0:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:0:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:0:0]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:0:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:0:0]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:0:0]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:0:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:0:1]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:0:1]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_0020231013.mp4
+1 [17:0:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:1:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:1:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:1:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:1:1]
+Service was started1 [17:1:21]
+Service was started1 [17:1:46]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:2:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:2:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:2:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:2:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:2:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:2:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:2:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:2:1]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:2:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_0220231013.mp4
+1 [17:2:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:3:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:3:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:3:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:3:1]
+Service was started1 [17:3:38]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:4:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:4:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:4:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:4:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:4:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:4:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:4:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:4:1]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:4:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_0420231013.mp4
+1 [17:4:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:5:3]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:5:3]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:5:3]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:5:3]
+Service was started1 [17:9:27]
+Service was started1 [17:10:21]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:11:2]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:11:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:11:2]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:11:2]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:11:2]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:11:2]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:11:3]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:11:3]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:11:3]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_1120231013.mp4
+1 [17:11:3]
+Service was started1 [17:48:38]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:49:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:49:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:49:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:49:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:49:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:49:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:49:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:49:2]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:49:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_4920231013.mp4
+1 [17:49:2]
+Service was started1 [17:50:29]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:51:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:51:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:51:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:51:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:51:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:51:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:51:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:51:1]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:51:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_5120231013.mp4
+1 [17:51:2]
+Service was started1 [17:53:56]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [17:54:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [17:54:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [17:54:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [17:54:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [17:54:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [17:54:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [17:54:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [17:54:2]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [17:54:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 17_5420231013.mp4
+1 [17:54:2]
+Service was started1 [17:59:34]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [18:0:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [18:0:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [18:0:1]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [18:0:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [18:0:1]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [18:0:1]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [18:0:1]
+[twitch:stream] 41234596616: Downloading m3u8 information
+1 [18:0:2]
+[info] 41234596616: Downloading 1 format(s): 1080p60__source_
+1 [18:0:2]
+[download] Destination: ..\Records\Stintik (live) 2023-10-13 18_0020231013.mp4
+1 [18:0:2]

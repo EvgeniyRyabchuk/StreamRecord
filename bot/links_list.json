@@ -2,11 +2,20 @@
   {
     "title": "Banan",
     "platform": "twitch",
-    "link": "https://www.twitch.tv/millenniumeye23"
+    "url": "https://www.twitch.tv/millenniumeye23",
+    "recording": false
   },
   {
     "title": "The Drzj",
     "platform": "twitch",
-    "link": "https://www.twitch.tv/thedrewzaj"
+    "url": "https://www.twitch.tv/thedrewzaj",
+    "recording": false
+  },
+  {
+    "title": "Stintik",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/stintik",
+    "recording": false
   }
+
 ]

@@ -11,7 +11,7 @@ const CommandName = {
     DELETE_TRACK_ITEM: '/delete_track_item',
     INFO: '/info',
     STATISTIC: '/statistic',
-    GET_STATISTIC_PHOTO: '/get_statistic_photo'
+    GET_STATISTIC_PHOTO: '/get_statistic_photo',
 }
 const AdminCommandName = {
     STOP_ALL_CORN_JOBS: '/stop_all_corn_jobs',
@@ -43,8 +43,12 @@ const BotCommand = [
         name: CommandName.START,
         description: 'Enter start to register yourself in system',
         default_answer: `Добро пожаловать. ${StatusMessages.INFO_TIP}`,
-
     },
+    {
+        name: AdminCommandName.STOP_ALL_CORN_JOBS,
+        description: 'sdfgsdfgh',
+        default_answer: ``,
+    }
 ];
 
 const getDefAnswer = (text) => BotCommand.find(bc => bc.name === text).default_answer;
