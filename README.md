@@ -12,3 +12,19 @@ https://github.com/yt-dlp/yt-dlp/tree/2023.10.07#usage-and-options
 @Millenniumeye23  @user-yi4dd3ct3c Banan millenniumeye23 Банан
 
 #banan #банан #jolygolf #стрим #stream #itpedia 
+
+сергей соколов
+#стрим
+алексей шевцов
+#айтипедия
+#стрим банана
+#twitch
+#твич
+стрим на твиче
+
+
+@itpediachannel itpedia 
+Jolygolf 
+@jolygolf8269
+
+Алексей Шевцов @AlexShevstsov
