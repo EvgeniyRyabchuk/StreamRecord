@@ -55,7 +55,7 @@ let admin_chat_id = null;
 const downloadStream = (following) => {
     const pathToRoot =  path.resolve(__dirname, '..');
     const pathToExec = yt_dlp_env_include == 'false' ?
-        path.resolve(__dirname, '..', 'yt-dlp_win', 'yt-dlp.exe') : "yt-dpl";
+        path.resolve(__dirname, '..', 'yt-dlp_win', 'yt-dlp.exe') : "yt-dlp";
 
     const url = following.url;
     const options = [

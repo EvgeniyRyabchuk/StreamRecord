@@ -46,3 +46,20 @@ npx sequelize-cli db:seed:undo:all
 
 
 https://crontab.guru/every-day
+
+TODO: youtube only stream download 
+
+{
+"title": "The Drzj",
+"platform": "youtube",
+"url": "https://www.youtube.com/@TheDRZJ",
+"recording": false
+},
+
+
+{
+"title": "JolyGolf YT",
+"platform": "youtube",
+"url": "https://www.youtube.com/@jolygolf8269",
+"recording": false
+},
