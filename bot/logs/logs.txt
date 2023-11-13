@@ -2359,3 +2359,116 @@ Service was started1 [17:59:34]
 1 [18:0:2]
 [download] Destination: ..\Records\Stintik (live) 2023-10-13 18_0020231013.mp4
 1 [18:0:2]
+Service was started1 [19:12:43]
+[twitch:stream] Extracting URL: https://www.twitch.tv/stintik
+1 [19:13:7]
+[twitch:stream] stintik: Downloading stream GraphQL
+1 [19:13:7]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:13:7]
+[twitch:stream] Extracting URL: https://www.twitch.tv/thedrewzaj
+1 [19:13:7]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:13:7]
+[twitch:stream] thedrewzaj: Downloading stream GraphQL
+1 [19:13:7]
+[twitch:stream] stintik: Downloading stream access token GraphQL
+1 [19:13:7]
+[twitch:stream] thedrewzaj: Downloading stream access token GraphQL
+1 [19:13:8]
+[twitch:stream] 41396082248: Downloading m3u8 information
+1 [19:13:8]
+[twitch:stream] 40794394871: Downloading m3u8 information
+1 [19:13:8]
+[info] 41396082248: Downloading 1 format(s): 1080p60__source_
+1 [19:13:8]
+[download] Destination: ..\Records\Stintik (live) 2023-11-13 19_1320231113.mp4
+1 [19:13:8]
+[info] 40794394871: Downloading 1 format(s): 1080p60__source_
+1 [19:13:8]
+[download] Destination: ..\Records\TheDREWZAJ (live) 2023-11-13 19_1320231113.mp4
+1 [19:13:8]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:14:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:14:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:16:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:16:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:17:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:17:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:18:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:18:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:19:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:19:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:20:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:20:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:21:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:21:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:22:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:22:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:23:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:23:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:24:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:24:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:25:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:25:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:26:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:26:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:27:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:27:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:28:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:28:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:29:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:29:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:30:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:30:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:31:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:31:0]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:32:1]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:32:1]
+[twitch:stream] Extracting URL: https://www.twitch.tv/millenniumeye23
+1 [19:33:0]
+[twitch:stream] millenniumeye23: Downloading stream GraphQL
+1 [19:33:0]
+[twitch:stream] millenniumeye23: Downloading stream access token GraphQL
+1 [19:33:1]
+[twitch:stream] 40161097717: Downloading m3u8 information
+1 [19:33:1]
+[info] 40161097717: Downloading 1 format(s): 1440p60__source_
+1 [19:33:1]
+[download] Destination: ..\Records\Millenniumeye23 (live) 2023-11-13 19_3320231113.mp4
+1 [19:33:1]
