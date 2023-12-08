@@ -2,4 +2,4 @@
 
 --merge-output-format mp4
 
-## -S "res:1080,vcodec,fps"
+-S "res:1080,vcodec,fps"
